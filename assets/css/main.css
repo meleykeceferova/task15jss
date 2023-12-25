@@ -413,6 +413,15 @@ nav {
   padding: 20px;
 }
 
+.fortwo {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+}
+.fortwo .newBox:hover h5 {
+  color: #10C98F;
+}
+
 @media screen and (max-width: 786px) {
   .blok .column .for {
     grid-template-columns: auto;

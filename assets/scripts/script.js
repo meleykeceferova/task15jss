@@ -1,4 +1,5 @@
 const forElem = document.querySelector(".for");
+const forElemTwo = document.querySelector(".fortwo");
 const loadBtn = document.querySelector(".loadBtn");
 const search = document.querySelector(".search");
 let page = 1;
@@ -144,3 +145,29 @@ addData.addEventListener("click", function () {
       console.log("data gonderildi" + data);
     });
 });
+
+
+
+const getData = async () => {
+  try {
+    const response = await fetch(
+      `http://localhost:3000/All2`
+    );
+    const data = await response.json();
+    data.forEach((item) => {
+      newBox = document.createElement("div");
+      newBox.className = "newBox";
+      newBox.innerHTML = ` 
+      <img src="${item.image}" alt="">
+      <h5>${item.means}</h5>
+      <p>${item.destriction}</p>
+
+          `;
+          forElemTwo.append(newBox);
+    });
+    
+  } catch (error) {
+    console.log(error);
+  }
+};
+getData()

@@ -42,8 +42,32 @@
       "means": "What are my options and the cost to exercise",
       "destriction": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
     }
-    
-    
+  ],
+  "All2": [
+    {
+      "id": 1,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services4.svg",
+      "means": "Quick apply",
+      "destriction": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 2,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services5.svg",
+      "means": "Online & Secure",
+      "destriction": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 3,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services6.svg",
+      "means": "Just time",
+      "destriction": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    },
+    {
+      "id": 4,
+      "image": "https://preview.colorlib.com/theme/easylo/assets/img/icon/services7.svg",
+      "means": "Low invest",
+      "destriction": "Tools such as a profit and tax calculator show the value of your stock options and exercise cost."
+    }
   ],
   "favorites": []
 }

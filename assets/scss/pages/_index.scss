@@ -376,51 +376,63 @@ nav {
             grid-template-rows: repeat(1, auto);
             padding: 50px 0px;
             gap: 20px;
-            .delete1{
+
+            .delete1 {
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
-                .text{
+
+                .text {
                     display: flex;
                     gap: 10px;
                     flex-direction: column;
-                    .box1{
+
+                    .box1 {
                         color: #898787;
                     }
-                    .box2{
+
+                    .box2 {
                         color: #3b3a3a;
                     }
                 }
             }
-            .delete2{
+
+            .delete2 {
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
-                .text{
+
+                .text {
                     display: flex;
                     gap: 10px;
                     flex-direction: column;
-                    .box1{
+
+                    .box1 {
                         color: #898787;
                     }
-                    .box2{
+
+                    .box2 {
                         color: #3b3a3a;
                     }
                 }
-                
+
             }
-            .delete3{
+
+            .delete3 {
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
-                .text{
+
+                .text {
                     display: flex;
                     gap: 10px;
                     flex-direction: column;
-                    .box1{
+
+                    .box1 {
                         color: #898787;
                     }
-                    .box2{
+
+                    .box2 {
                         color: #3b3a3a;
                     }
                 }
@@ -439,12 +451,13 @@ nav {
             }
         }
     }
-    .media{
-        .edit{
-            .keep{
+
+    .media {
+        .edit {
+            .keep {
                 grid-template-columns: auto auto;
             }
-           
+
         }
     }
 
@@ -481,23 +494,42 @@ nav {
 }
 
 
-.deafaultBtnStyle{
+.deafaultBtnStyle {
     background-color: #10C98F !important;
     color: rgb(255, 0, 0) !important;
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
 }
-.search{
+
+.search {
     border: 3px double #10C98F;
     border-radius: 5px;
     height: 30px;
     outline: 0;
     padding-left: 5px;
 }
-#favcontainer{
+
+#favcontainer {
     padding: 20px;
 }
+
+.fortwo {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+
+    .newBox {
+
+        &:hover {
+            h5 {
+                color: #10C98F;
+            }
+        }
+    }
+
+}
+
 @media screen and (max-width:786px) {
     .blok {
         .column {
@@ -506,7 +538,8 @@ nav {
             }
         }
     }
-    .media .edit .keep{
+
+    .media .edit .keep {
         grid-template-columns: auto;
     }
 }
